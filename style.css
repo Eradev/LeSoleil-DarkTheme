@@ -1,0 +1,117 @@
+body {
+    background: #202020;
+    color: #DCDCDC;
+}
+
+.container {
+    background: #2C2C2C;
+}
+
+.__gcm-header__2a9dc .header__utils-header {
+    border-top: 1px solid #4D4D4D;
+    padding: 10px 16px 16px;
+}
+
+.__gcm-header__2a9dc .header__secondary-header {
+    background-color: #4D4D4D;    
+}
+
+.__gcm-full-article__basic__588b9 .full-article-basic__header-and-title,
+.__gcm-full-article__basic__588b9 .full-article-basic__inner,
+.__gcm-header__navigation__92165 .header-navigation__sections,
+.__gcm-block__une-headline__73bcc .block-une-headline__inner,
+.__gcm-block__section-headline__1e533 .block-section-headline__inner {
+    background: #2C2C2C;
+}
+
+.__gcm-block__section-most-popular-a__14885 .block-section-most-popular-a__load-link {
+    border: 1px solid #DCDCDC;
+    color: #DCDCDC;
+    background: #4D4D4D;
+}
+
+.__gcm-full-article__basic__588b9 .full-article-basic__title-link,
+.__gcm-full-article__basic__content__1cd12,
+.__gcm-header__featured-sections__b2778 .header-featured-sections__link,
+.__gcm-recent-articles__article__basic__41cba .recent-articles-article-basic__link,
+.__gcm-large-content__basic__f7473 .large-content-basic__link,
+.__gcm-medium-content__basic__ebaeb .medium-content-basic__link,
+.__gcm-block__section-most-popular-a__14885 .block-section-most-popular-a__title,
+.__gcm-popular-news__article__basic__c32ac .popular-news-basic__title,
+.__gcm-section-title__09ebb .section-title__link,
+.__gcm-small-content__columnist__bc5c6 .small-article-columnist__link,
+.__gcm-small-content__basic__2a523 .small-content-basic__link,
+.__gcm-article-date__e7017,
+.__gcm-article-dates__c770a,
+.__gcm-xlarge-content__basic__b52dd .xlarge-content-basic__link,
+.__gcm-large-content__columnist__b0f35 .large-article-columnist__link,
+.__gcm-medium-content__columnist__18a9c .medium-article-columnist__link{
+    color: #DCDCDC;
+}
+
+.__gcm-full-article__basic__read-more-button__8b708 .full-article-basic-read-more-button__link {
+    background: #4D4D4D;
+    color: #DCDCDC;
+}
+
+.__gcm-content-item-visual__thumbnail__18ffd,
+.content-item-sponsored-header--visible {
+    background-color: #2C2C2C;
+}
+
+.__gcm-full-article__basic__588b9 .content-visual-thumbnail--at-full-article {
+    margin-top: 0;
+}
+
+.__gcm-header__navigation__section__97259 .header-navigation-section__link {
+    border-top-color: #4D4D4D;
+    color: #DCDCDC;
+}
+
+.__gcm-header__navigation__section__97259 .header-navigation-section__link:focus,
+.__gcm-header__navigation__section__97259 .header-navigation-section__link:hover,
+.__gcm-header__navigation__92165 .header-navigation__marketplace,
+.__gcm-recent-articles__a4d1f,
+.__gcm-block__section-most-popular-a__14885 .block-section-most-popular-a__inner,
+.__gcm-block__section-articles-c__ad4ff .block-section-articles-c__inner,
+.__gcm-xlarge-content__basic__b52dd:focus .xlarge-content-basic__info,
+.__gcm-xlarge-content__basic__b52dd:hover .xlarge-content-basic__info,
+.__gcm-block__section-articles-g__e751d .block-section-articles-g__inner,
+.__gcm-block__section-articles-i__c0c1d,
+.__gcm-block__section-articles-d__bab86 .block-section-articles-d__inner {
+    background: #4D4D4D;
+}
+
+.__gcm-xlarge-content__basic__b52dd .xlarge-content-basic__info {
+    background: rgba(77, 77, 77, 0.75);
+}
+
+.__gcm-block__section-articles-f__5d755 .block-section-articles-f__inner {
+    background: #6D0067;
+}
+
+.__gcm-block__section-articles-e__c182a .block-section-articles-e__inner {
+    background: #4164a0;
+}
+
+.__gcm-block__section-articles-f__5d755 .block-section-articles-f__inner .article-date__decoration,
+.__gcm-block__section-articles-e__c182a .block-section-articles-e__inner .article-date__decoration {
+    background: #DCDCDC !important;
+}
+
+.__gcm-header__featured-sections__b2778 .header-featured-sections__link:focus,
+.__gcm-header__featured-sections__b2778 .header-featured-sections__link:hover,
+.__gcm-section-title__09ebb .section-title__link:focus,
+.__gcm-section-title__09ebb .section-title__link:hover,
+.__gcm-chapter__paragraph__4999a .chapter-paragraph__content a:focus,
+.__gcm-chapter__paragraph__4999a .chapter-paragraph__content a:hover,
+.__gcm-chapter__paragraph__4999a .chapter-paragraph__content a{
+    color: #D71824;
+}
+
+.__gcm-ad__une-headline-box__220b8,
+.__gcm-ad__home-blocks-separator__0fef3,
+.__gcm-block__newsletter-subscription__ff7c9,
+.__gcm-ad__article-summaries-separator__f4d4a {
+    display: none;
+}
