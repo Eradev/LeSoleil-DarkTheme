@@ -3,7 +3,7 @@
 @name        LeSoleil.com Dark theme
 @description Dark theme for LeSoleil.com for those who don't like light
 @namespace   com.github.Eradev
-@version     0.0.2
+@version     0.0.3
 @updateURL   https://raw.githubusercontent.com/Eradev/LeSoleil-DarkTheme/master/lesoleil-dark.user.css
 @author      Eradev
 @license     MIT
@@ -34,9 +34,6 @@
   ._recent-articles_xss6xo,
   .__eed13 .recent-articles-article-basic__link,
   .__b90c9 .recent-articles-article-columnist__link,
-  ._section-articles-c_16x82d,
-  ._section-articles-d_1kwqao,
-  ._section-articles-e_odbjio,
   .__ad9c8 .medium-content-basic__link,
   .__fb6cd,
   .__aab07 .full-article-basic__header-and-title,
@@ -44,19 +41,20 @@
   .__aab07 .full-article-basic__inner,
   ._section-articles-f_2i8vtf,
   ._load-link_pa8l4e,
-  ._inner_pa8l4e,
-  ._inner_jm2sp,
+  [class*='_section-articles-'],
+  [class*='_inner_'],
+  [class*='_container_'],
   ._section-articles-l_1fbfe6,
-  ._inner_hxacym,
   .__935fa,
   .__77225 .header__mobile-header,
-  .__77225 .header__secondary-header {
+  .__77225 .header__secondary-header,
+  ._container_184i5p {
       background: @colorDGrey;
       color: @colorWhite;
   }
 
   ._link_16rxfd,
-  ._title_pa8l4e,
+  [class*='_title_'],
   .__819db .small-article-columnist__link,
   .__cc5d8 .small-content-basic__link,
   .__7536b .popular-news-basic__title,
