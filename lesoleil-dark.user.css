@@ -13,8 +13,8 @@
 @var color colorRed   "Red"        #D61924
 @var color colorDGrey "Dark Grey"  #2C2C2C
 ==/UserStyle== */
-@-moz-document domain("lesoleil.com"),
-@-moz-document domain("lenouvelliste.ca") {
+@-moz-document domain("lesoleil.com"), 
+  domain("lenouvelliste.ca") {
   
   body {
     background: @colorBlack;
