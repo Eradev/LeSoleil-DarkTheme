@@ -1,0 +1,81 @@
+  
+/* ==UserStyle==
+@name        LeSoleil.com Dark theme
+@description Dark theme for LeSoleil.com for those who don't like light
+@namespace   com.github.Eradev
+@version     0.0.1
+@updateURL   https://raw.githubusercontent.com/Eradev/LeSoleil-DarkTheme/master/lesoleil-dark.user.css
+@author      Eradev
+@license     MIT
+@preprocessor less
+@var color colorWhite "White"      #DCDCDC
+@var color colorBlack "Black"      #202020
+@var color colorRed   "Red"        #D61924
+@var color colorDGrey "Dark Grey"  #2C2C2C
+==/UserStyle== */
+@-moz-document domain("lesoleil.com") {
+  body {
+    background: @colorBlack;
+    color: @colorWhite;
+  }
+
+  .container {
+      background: @colorBlack;
+  }
+
+  ._content-visual-thumbnail_q9gx7q {
+      background-color: @colorBlack;
+  }
+
+  ._bar_4756oy {
+      background: @colorWhite;
+  }
+
+  ._recent-articles_xss6xo,
+  .__eed13 .recent-articles-article-basic__link,
+  .__b90c9 .recent-articles-article-columnist__link,
+  ._section-articles-c_16x82d,
+  ._section-articles-d_1kwqao,
+  ._section-articles-e_odbjio,
+  .__ad9c8 .medium-content-basic__link,
+  .__fb6cd,
+  .__aab07 .full-article-basic__header-and-title,
+  .__aab07 .full-article-basic__title-link,
+  .__aab07 .full-article-basic__inner,
+  ._section-articles-f_2i8vtf,
+  ._load-link_pa8l4e,
+  ._inner_pa8l4e,
+  ._inner_jm2sp,
+  ._section-articles-l_1fbfe6,
+  ._inner_hxacym,
+  .__935fa,
+  .__77225 .header__mobile-header,
+  .__77225 .header__secondary-header {
+      background: @colorDGrey;
+      color: @colorWhite;
+  }
+
+  ._link_16rxfd,
+  ._title_pa8l4e,
+  .__819db .small-article-columnist__link,
+  .__cc5d8 .small-content-basic__link,
+  .__7536b .popular-news-basic__title,
+  .__7536b .popular-news-basic__index,
+  .__234bf .large-content-basic__link {
+      color: @colorWhite;
+  }
+  ._link_16rxfd:focus,
+  ._link_16rxfd:hover,
+  .__d0ff5 .header-featured-sections__link:focus,
+  .__d0ff5 .header-featured-sections__link:hover {
+      color: @colorRed;
+  }
+
+  ._ad-home-blocks-separator_1jb3gr,
+  ._ad-article-summaries-separator_qn1q2c,
+  ._advertisement_jm2sp,
+  ._ad-section-headline-box_s0jokd,
+  ._ad-une-headline-box_1vng5h {
+      display: none;
+  }
+}
