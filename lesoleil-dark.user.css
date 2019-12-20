@@ -3,7 +3,7 @@
 @name        LeSoleil.com Dark theme
 @description Dark theme for LeSoleil.com for those who don't like light
 @namespace   com.github.Eradev
-@version     0.0.3
+@version     0.0.4
 @updateURL   https://raw.githubusercontent.com/Eradev/LeSoleil-DarkTheme/master/lesoleil-dark.user.css
 @author      Eradev
 @license     MIT
@@ -13,7 +13,9 @@
 @var color colorRed   "Red"        #D61924
 @var color colorDGrey "Dark Grey"  #2C2C2C
 ==/UserStyle== */
-@-moz-document domain("lesoleil.com") {
+@-moz-document domain("lesoleil.com"),
+@-moz-document domain("lenouvelliste.ca") {
+  
   body {
     background: @colorBlack;
     color: @colorWhite;
