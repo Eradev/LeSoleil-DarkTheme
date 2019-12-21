@@ -1,9 +1,9 @@
   
 /* ==UserStyle==
 @name        LeSoleil.com Dark theme
-@description Dark theme for LeSoleil.com for those who don't like light
+@description Dark theme for LeSoleil.com (and sister sites) for those who don't like light
 @namespace   com.github.Eradev
-@version     0.0.4
+@version     0.1.0
 @updateURL   https://raw.githubusercontent.com/Eradev/LeSoleil-DarkTheme/master/lesoleil-dark.user.css
 @author      Eradev
 @license     MIT
@@ -12,9 +12,14 @@
 @var color colorBlack "Black"      #202020
 @var color colorRed   "Red"        #D61924
 @var color colorDGrey "Dark Grey"  #2C2C2C
+@var color colorLGrey "Light Grey" #4C4C4C
 ==/UserStyle== */
 @-moz-document domain("lesoleil.com"), 
-  domain("lenouvelliste.ca") {
+  domain("lenouvelliste.ca"),
+  domain("ledroit.com"),
+  domain("lequotidien.com"),
+  domain("latribune.ca"),
+  domain("lavoixdelest.ca") {
   
   body {
     background: @colorBlack;
@@ -25,7 +30,8 @@
       background: @colorBlack;
   }
 
-  ._content-visual-thumbnail_q9gx7q {
+  ._content-visual-thumbnail_q9gx7q,
+  [class*='_subscription_'] {
       background-color: @colorBlack;
   }
 
@@ -34,35 +40,43 @@
   }
 
   ._recent-articles_xss6xo,
-  .__eed13 .recent-articles-article-basic__link,
-  .__b90c9 .recent-articles-article-columnist__link,
-  .__ad9c8 .medium-content-basic__link,
+  .recent-articles-article-basic__link,
+  .recent-articles-article-columnist__link,
+  .medium-content-basic__link,
   .__fb6cd,
-  .__aab07 .full-article-basic__header-and-title,
-  .__aab07 .full-article-basic__title-link,
-  .__aab07 .full-article-basic__inner,
-  ._section-articles-f_2i8vtf,
+  .full-article-basic__header-and-title,
+  .full-article-basic__title-link,
+  .full-article-basic__inner,
   ._load-link_pa8l4e,
   [class*='_section-articles-'],
   [class*='_inner_'],
   [class*='_container_'],
-  ._section-articles-l_1fbfe6,
   .__935fa,
-  .__77225 .header__mobile-header,
-  .__77225 .header__secondary-header,
+  .header__mobile-header,
+  .header__secondary-header,
   ._container_184i5p {
-      background: @colorDGrey;
-      color: @colorWhite;
+      background: @colorDGrey !important;
+      color: @colorWhite !important;
+  }
+    
+  .xlarge-content-basic__info {
+    background: @colorDGrey !important;
+    color: @colorWhite;
+  }
+  [class*='-columnist__info']:hover,
+  [class*='-basic__info']:hover {
+    background: @colorLGrey !important;
   }
 
   ._link_16rxfd,
+  [class*='_subtitle_'],
   [class*='_title_'],
-  .__819db .small-article-columnist__link,
-  .__cc5d8 .small-content-basic__link,
-  .__7536b .popular-news-basic__title,
-  .__7536b .popular-news-basic__index,
-  .__234bf .large-content-basic__link {
-      color: @colorWhite;
+  .popular-news-basic__title,
+  .popular-news-basic__index,
+  .content-date__date,
+  [class*='-content-basic__link'],
+  [class*='-article-columnist__link'] {
+      color: @colorWhite !important;
   }
   ._link_16rxfd:focus,
   ._link_16rxfd:hover,
@@ -70,9 +84,15 @@
   .__d0ff5 .header-featured-sections__link:hover {
       color: @colorRed;
   }
+  
+  .recent-articles-article-basic__date,
+  .recent-articles-article-columnist__date {
+    color: @colorRed !important;
+  }
 
   [class*='_ad-'],
   [class*='_advertisement_'] {
       display: none;
   }
 }
+
