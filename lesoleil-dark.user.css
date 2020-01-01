@@ -3,7 +3,7 @@
 @name        LeSoleil.com Dark theme
 @description Dark theme for LeSoleil.com (and sister sites) for those who don't like light
 @namespace   com.github.Eradev
-@version     0.1.0
+@version     0.1.1
 @updateURL   https://raw.githubusercontent.com/Eradev/LeSoleil-DarkTheme/master/lesoleil-dark.user.css
 @author      Eradev
 @license     MIT
@@ -68,6 +68,7 @@
     background: @colorLGrey !important;
   }
 
+  [class*='_content_'] a,
   ._link_16rxfd,
   [class*='_subtitle_'],
   [class*='_title_'],
@@ -78,6 +79,9 @@
   [class*='-article-columnist__link'] {
       color: @colorWhite !important;
   }
+    
+  [class*='_content_'] a:hover,
+  [class*='_content_'] a:focus,
   ._link_16rxfd:focus,
   ._link_16rxfd:hover,
   .__d0ff5 .header-featured-sections__link:focus,
